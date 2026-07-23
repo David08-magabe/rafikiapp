@@ -1,6 +1,5 @@
 """
 Rafiki-Finance AI — Tanzania Financial Assistant
-========================================
 Stack:
   - Streamlit (UI)
   - Groq API + Llama 3.3 70B (LLM)
@@ -52,18 +51,14 @@ except ImportError:
     except ImportError:
         WEB_SEARCH_AVAILABLE = False
 
-# ══════════════════════════════════════════════════════
 # LOGGING (server-side only — never shown to end users)
-# ══════════════════════════════════════════════════════
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
 logger = logging.getLogger("rafiki_finance")
 
-# ══════════════════════════════════════════════════════
 # PAGE CONFIG
-# ══════════════════════════════════════════════════════
 st.set_page_config(
     page_title="Rafiki-Finance AI",
     page_icon="🇹🇿",
@@ -71,9 +66,8 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# ══════════════════════════════════════════════════════
+
 # CONFIG
-# ══════════════════════════════════════════════════════
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH      = os.path.join(BASE_DIR, "tz_financial_faq_150_matrix.csv")
 
