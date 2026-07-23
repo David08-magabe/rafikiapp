@@ -293,7 +293,7 @@ st.markdown("""
 /* ── Input bar ── */
 [data-testid="stChatInput"] textarea {
     background: #ffffff !important;
-    border-radius: 22px !important;
+    border-radius: 8px !important;
     border: 2px solid rgba(255,255,255,0.45) !important;
     box-shadow: 0 2px 12px rgba(0,0,0,0.30) !important;
     color: #1a2a3a !important;
