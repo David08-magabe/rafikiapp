@@ -148,7 +148,7 @@ st.markdown("""
 <style>
 /* ── App background ── */
 .stApp {
-    background: linear-gradient(160deg,#0d2b1f 0%,#153d29 55%,#1a4a30 100%) !important;  
+    background: linear-gradient(160deg,#0f2439 0%,#16344f 55%,#1c3f52 100%) !important;  
     min-height: 100vh;
 }
 .main .block-container {
